@@ -191,7 +191,7 @@ const getStyles = () => {
       width: '100%',
       paddingLeft: 16,
       paddingRight: 16,
-      bottom: 8,
+      bottom: 20,
     },
     stickyBtn: {
       flex: 1,
@@ -200,7 +200,7 @@ const getStyles = () => {
       paddingRight: 24,
       paddingBottom: 11,
       paddingLeft: 24,
-      borderRadius: 20,
+      borderRadius: 8,
       justifyContent: 'center',
     },
     stickyText: {

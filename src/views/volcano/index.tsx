@@ -11,6 +11,7 @@ import {
 import {Text} from 'react-native-paper';
 import useStyledComponents from '../../assets/styles/home';
 import RightArrow from '../../assets/svg/RightArrow';
+import Aloha from '../../assets/svg/Aloha';
 
 const spotCard = [
   {
@@ -44,7 +45,7 @@ const Vulcano = () => {
         keyboardShouldPersistTaps="handled">
         {/* header */}
         <View style={styles.header}>
-          <Text style={styles.headerTextStyle}>Aloha</Text>
+          <Aloha />
         </View>
         {/* image */}
         <View style={styles.topImageHolder}>
@@ -112,6 +113,11 @@ const Vulcano = () => {
           </View>
         </View>
       </ScrollView>
+      <View style={styles.stickyBtnContianer}>
+        <TouchableOpacity style={styles.stickyBtn}>
+          <Text style={styles.stickyText}>Book a trip</Text>
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };

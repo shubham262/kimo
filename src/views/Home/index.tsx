@@ -11,6 +11,7 @@ import {
 import {Text} from 'react-native-paper';
 import useStyledComponents from '../../assets/styles/home';
 import RightArrow from '../../assets/svg/RightArrow';
+import Aloha from '../../assets/svg/Aloha';
 
 const categoriesCards = [
   'Adventure',
@@ -55,7 +56,7 @@ const Home = () => {
         keyboardShouldPersistTaps="handled">
         {/* header */}
         <View style={styles.header}>
-          <Text style={styles.headerTextStyle}>Aloha</Text>
+          <Aloha />
         </View>
         {/* image */}
         <View style={styles.topImageHolder}>
