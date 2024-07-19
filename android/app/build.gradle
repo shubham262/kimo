@@ -83,6 +83,12 @@ android {
         versionName "1.0"
     }
     signingConfigs {
+        release {
+            storeFile file('shubham.keystore')
+            storePassword 'Shubham@2000'
+            keyAlias 'shubham_key'
+            keyPassword 'Shubham@2000'
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
